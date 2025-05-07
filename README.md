@@ -101,6 +101,17 @@ For example, as seen in the above images:
 Some inputs are correctly classified by Model 1, while Model 2 overlooks them.
 Model 2 sometimes emphasizes trivial variations in the image, leading to unexpected behaviors.
 
+
+**Ablation study result:**
+
+![image](https://github.com/user-attachments/assets/28540800-42f2-442f-8eea-5ce55780decd)
+
+
+**Training scalability**
+
+![fig](https://github.com/user-attachments/assets/49d02a93-8f05-4b68-a3f4-090ee66996f4)
+
+
 ### Insights
 This finding highlights the importance of generating diverse triggering inputs to reveal subtle discrepancies between models. It suggests that even highly accurate models might not always be the most reliable under specific conditions. This insight can be crucial for model selection mechanisms, where understanding model behavior under edge cases helps optimize the use of multiple DNN models.
 
